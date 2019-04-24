@@ -9,7 +9,6 @@ class ansible (
                 $logrotation_ensure    = 'present',
                 $logrotation_frequency = 'daily',
                 $logrotation_rotate    = '30',
-                $logrotation_size      = '100M',
                 $command_timeout       = '10',
               ) inherits ansible::params{
 
